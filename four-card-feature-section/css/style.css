@@ -22,7 +22,7 @@ p {
 }
 
 header {
-  max-width: 700px;
+  max-width: 40%;
   margin: 3rem;
   text-align: center;
 }
@@ -49,9 +49,9 @@ header p {
   align-items: center;
 }
 
-.box-column {
+/* .box-column {
   flex-direction: column;
-}
+} */
 
 .box {
   background: #fff;
@@ -82,19 +82,19 @@ header p {
   margin-right: 5px;
 }
 
-.box-column #supervisor {
+.box-section #supervisor {
   border-top: hsl(180, 62%, 55%) solid 5px;
 }
 
-.box-column #team-builder {
+.box-section #team-builder {
   border-top: hsl(0, 78%, 62%) solid 5px;
 }
 
-.box-column #karma {
+.box-section #karma {
   border-top: hsl(34, 97%, 64%) solid 5px;
 }
 
-.box-column #calculator {
+.box-section #calculator {
   border-top: hsl(212, 86%, 64%) solid 5px;
 }
 

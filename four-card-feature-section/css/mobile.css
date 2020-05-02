@@ -1,0 +1,18 @@
+.box-section {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+	max-width: 90%;
+	margin: 2rem;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 1.3rem;
+}
+
+header p {
+	font-size: 13px;
+}
