@@ -22,7 +22,7 @@ p {
 }
 
 header {
-  max-width: 40%;
+  width: 100%;
   margin: 3rem;
   text-align: center;
 }
@@ -42,16 +42,14 @@ header h1 span {
 
 header p {
   font-size: 20px;
+  max-width: 700px;
+  display: inline-block;
 }
 
 .box-section {
   display: flex;
   align-items: center;
 }
-
-/* .box-column {
-  flex-direction: column;
-} */
 
 .box {
   background: #fff;
