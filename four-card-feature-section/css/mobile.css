@@ -2,7 +2,6 @@
 header {
 	max-width: 90%;
 	margin: 2rem;
-	text-align: center;
 }
 
 header h1 {
@@ -13,11 +12,6 @@ header h1 {
 
 header p {
 	font-size: 18px;
-}
-
-.box-section {
-  display: flex;
-  flex-direction: column;
 }
 
 .box {
