@@ -1,0 +1,115 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+#main-section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#main-section .coming-soon {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+#main-section .coming-soon .logo {
+  width: 17rem;
+  padding: 2rem 0 6rem 6rem;
+  margin: 3rem 0 2rem 4rem;
+}
+
+#main-section .coming-soon h1 {
+  text-transform: uppercase;
+  text-align: left;
+  margin-left: 10rem;
+  font-size: 5rem;
+}
+
+#main-section .coming-soon h1 .one {
+  color: hsl(0, 36%, 70%);
+}
+
+#main-section .coming-soon h1 .two,
+#main-section .coming-soon h1 .three {
+  display: block;
+}
+
+#main-section .coming-soon p {
+  text-align: left;
+  margin-left: 10rem;
+  font-size: 16px;
+  width: 440px;
+  color: hsl(0, 36%, 70%);
+  line-height: 1.8;
+  letter-spacing: 1.2;
+}
+
+#main-section .coming-soon .button-in {
+  width: 440px;
+  position: relative;
+}
+
+#main-section .coming-soon .email-input {
+  position: relative;
+  width: 440px;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  color: hsl(0, 36%, 70%);
+}
+
+#main-section .coming-soon .send-btn {
+  position: absolute;
+  top: 2rem;
+  bottom: 0;
+  right: -10rem;
+  transform: translateX(2px);
+  width: 6rem;
+  border-radius: 6rem;
+  background: hsl(0, 36%, 70%);
+}
+
+#main-section .coming-soon i {
+  color: #fff;
+}
+
+#main-section .photo-section {
+  display: flex;
+  flex-grow: 2;
+}
+
+#main-section .photo-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
